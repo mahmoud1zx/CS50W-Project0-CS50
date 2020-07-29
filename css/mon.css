@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+
+}
+body{   
+    background-color: #333;
+    font-family: 'PT Sans Narrow', sans-serif;  
+line-height: 1.5;
+}
+a{
+    text-decoration: nones;
+}
+.text-primary{
+    color:blueviolet;
+}
+.navbar{
+    display: flex;
+    position:sticky;
+    top: 0px;
+padding:1rem;
+background-color:rgb(51, 51, 51,0.4);
+justify-content: space-between;
+color: #fff;
+   z-index: 1;
+
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+align-items: center;
+}
+
+.navbar ul li a{
+ color: #fff;
+margin: 0 0.25rem;
+padding: 0.75rem;
+}
+.navbar ul li a:hover{
+ background-color: blueviolet;
+border-radius: 5px;
+}
+#showcase {
+height: 100vh;
+color: #fff;   
+background: #333 
+url("../imeeg/showcase.jpg") no-repeat
+center/cover
+}
+
+#showcase .showcase-cintent{
+display: flex;
+flex-direction: column ;
+text-align: center;
+justify-content: center;
+height: 100%;
+align-items: center;
+background: rgb(0.0.0,0.4);
+top: 6px;
+left: 0;
+right: 0;
+bottom: 0;
+}
+.lead{
+font-size: 4rem; 
+margin-bottom: .75rem;
+line-height: 1.1;
+}
+.he{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.btn{
+ display: inline-block;
+ color: #fff;
+ background-color: #431894;
+ padding: 0.5rem;
+}
+
+#what{
+    background-color: #f4f4f4;
+text-align: center;
+}
