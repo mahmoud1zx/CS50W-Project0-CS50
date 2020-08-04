@@ -9,7 +9,7 @@ box-sizing: border-box;
 body{   
     background-color: #333;
     font-family: 'PT Sans Narrow', sans-serif;  
-line-height: 1.5;
+line-height: 3.5;
 }
 a{
     text-decoration: nones;
@@ -26,7 +26,7 @@ background-color:rgb(51, 51, 51,0.4);
 justify-content: space-between;
 color: #fff;
    z-index: 1;
-
+line-height: 10px;
 }
 
 .navbar ul{
@@ -77,11 +77,118 @@ line-height: 1.1;
 .btn{
  display: inline-block;
  color: #fff;
- background-color: #431894;
+ background: #431894;
+border: none;
  padding: 0.5rem;
-}
+border-radius: 5px;}
 
-#what{
+.btn:hover {
+ background: #6745a7;
+
+}
+.btn-dark {
+    background: #333;
+    color: #fff;
+}
+#whaT{
     background-color: #f4f4f4;
 text-align: center;
+;
+}
+
+#whaT .items {
+    display:inline-flex;
+    padding: 1rem;
+}
+
+#whaT .items .item {
+    flex: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+#whaT .items .item i {
+    background: rgb(100, 100, 163);
+    border-radius: 50%;
+padding: 1.3rem;
+margin-bottom: 1rem;
+
+}
+
+
+#who {
+    height: 100%;
+background-color:#fff;    display: flex;
+text-align: center;
+}
+
+#who div {
+    flex: 1rem;
+}
+
+
+#who .who-img {
+    background: url('../imeeg/people.jpg') no-repeat center center/cover;
+
+}
+#clients {
+    background-color: #fff;
+}
+
+#clients .items {
+    display: flex;
+}
+
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+
+#contact {
+    display: flex;
+    flex: 2;
+background-color:rgb(131, 122, 122);
+line-height: 30px; 
+}
+
+#contact .google-maps,
+#contact .contact-form {
+    flex: 1;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+color: blue;
+}
+
+#contact .contact-form label {
+  
+  color: #f4f4f4; 
+  display:inline-block; 
+
+
+
+  line-height: 20px;
+}  
+
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.google-maps {
+    background: url('../imeeg/gmaps.jpg') no-repeat center center/cover;
+
+}
+ .sc{ 
+line-height: 50px;
+    text-align: center;
+    background:rgb(97, 86, 72);
+ color:#fff4   
+}
+#main-footer .contact .sc{
+    height: 100px;
 }
